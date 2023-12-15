@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBord </title>
+</head>
+<body>
+
+            <!-- Top four div start from here  -->
+
+  <div class="top">
+      <div class="topdiv">
+          <div>
+              <h4>Address</h4>
+              <p>Somewhere in the world</p>  
+          </div>
+          <div>
+             <img src="https://cdn-icons-png.flaticon.com/512/44/44473.png" height="18px" width="18px">
+          </div>
+      </div>
+      <div class="topdiv">
+        <div>
+            <h4> You can Email Her</h4>
+            <p> abc@gmail.com</p>
+        </div>
+          <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/44/44473.png" height="18px" width="18px">
+         </div>
+      </div>
+      <div class="topdiv">
+        <div>
+            <h4> Call us on</h4>
+            <p>9800000000</p>
+        </div>
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/44/44473.png" height="18px" width="18px">
+         </div>
+      </div>
+      <div class="topdiv">
+        <div>
+           <h4> Working Hours</h4>
+           <p>10AM-5PM</p>
+        </div>
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/44/44473.png" height="18px" width="18px">
+         </div>
+      </div>
+  </div>
+
+               <!-- Middle div start  from here  -->
+
+  <div class="Mid">
+
+               <!-- Middle  Leftside div start from here -->
+
+        <div class="midleft">
+          <img src="https://images.squarespace-cdn.com/content/v1/60173b85cc868e07a1cf9b2f/1697721528315-LUJZPIWQOGJA6OVWBWJ1/kinship.jpg" width="350px" height="340px"id="image">
+          <div class="lowerdiv">
+               <div>
+                 <h4> Participation and Collaboration<br></h4> <p> abc@gmail.com</p>
+               </div>
+               <div>
+                 <img src="https://cdn-icons-png.flaticon.com/512/44/44473.png" height="20px" width="20px" >
+               </div>
+          </div>
+        </div>
+
+                 <!-- Middle  Rightside div start from here -->
+
+        <div class="midright">
+          <form class="Form">
+              <div>
+                <b>First Name </b><br>
+                <input type="text" class="textbox" name="firstname" placeholder="Your name..">
+                <b>Email:</b> <br>
+                <input type="email" class="textbox" name="email" placeholder="Your Email">
+              </div>
+              <div>
+                <b>Last Name:</b> <br>
+                 <input type="text" class="textbox" name="Lasttname" placeholder="Your Lastname">
+                 <b>Phone:</b> <br>
+                 <input type="phone"  class="textbox" placeholder="Your Phone No.">
+              </div> 
+          </form> 
+
+                     <!-- massage box is here  -->
+ 
+          <b> Massage:</b><br> 
+          <textarea rows="7" cols="50" style="background-color: rgb(240, 253, 255);"> Enter the Massage </textarea>
+
+                     <!-- Checkbox and Send massage button is here  -->
+
+          <div class="bleowtextarea">
+               <div>
+                <input type="checkbox">: I agree With term and policy 
+               </div>
+               <div>
+                <button  type="button"  class="button2"> Send Your Massage  </button>
+               </div>
+          </div>
+      </div>
+  </div>
+
+                      <!-- Last two div Visit button -->
+
+<div class="lastdiv">
+     <div class="last">
+      <div>
+          <h2>Volunteer opportunities</h2>
+          <p> Are you a student seeking to gain experience working for ?</p>
+       </div>
+       <div>
+         <button  type="button"  class="button2"> View Page</button>
+       </div>
+     </div>
+     <div class="last"> 
+        <div>
+           <h2>Donation Information</h2>
+           <p> Are you a student seeking to gain experience working for?</p>
+        </div>
+           <div>
+            <button  type="button"  class="button2"> View Page  </button>
+           </div>  
+     </div>
+</div>
+
+
+                                                               <!-- CSS part Beign From Here  -->
+
+
+<style>
+        body{
+            background-color:rgb(235, 242, 245);
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-top: 15px;
+          }
+          .top{
+            justify-content:space-around;
+            display:flex;
+            height: 60px;
+          }          
+        .topdiv{
+            background-color: rgb(240, 253, 255);
+            border-radius: 12px;
+            width: 200px;
+            align-items: center;
+            display: flex;
+            justify-content:space-around;
+            padding:10px;            
+           }
+        .Mid
+        {
+        background-color: rgb(240, 253, 255);
+        height: 500px;
+        margin-top: 20px;
+        border-radius: 20px;
+        display: flex;
+        justify-content:space-around;
+        padding-right: 5px;
+        padding-left: 0px;
+        
+        }
+
+        .midleft{
+          background-color: rgb(248, 247, 247);
+          border-radius: 30px;
+          width:300px;
+          height: 290px;
+          margin-top: 40px;
+        }
+        .midright{
+          background-color: rgb(240, 253, 255);
+          border-radius: 10px;
+          width:400px;
+          height: 380px;
+          padding: 20px;
+          margin-top: 40px;
+          border:solid;
+          border-color:rgb(212, 222, 224);
+        }
+        .lowerdiv{
+          background-color:rgb(235, 242, 245);
+          border-radius: 12px;
+          width: 285px;
+          align-items: center;
+          display: flex;
+          justify-content:space-between;
+          padding: 30px;
+          height: 10px;
+          margin-top: 10px;
+        }
+        #image{
+          border-radius: 10px;
+        }
+        .Form{
+          display: flex;
+          justify-content:space-around;
+        }
+        .textbox{
+          background-color: rgb(240, 253, 255);
+          border-color:rgb(212, 222, 224);
+          width: 180px;
+          border-radius: 5px;
+          padding:7px;
+          font-size:small;
+          margin-top: 15px;
+          margin-bottom: 20px;
+        }
+        .bleowtextarea{
+          display: flex;
+          justify-content:space-between;
+          margin-top: 30px;
+        }
+        .button2{
+            width: 120px;
+            padding: 10px;
+            background:rgb(0, 0, 0);
+            font-size: 10px;
+            border-radius: 22px;
+            color: aliceblue;
+            box-shadow: 0px 5px 9px  1px rgb(126, 125, 125);
+        }
+        .lastdiv{
+          display: flex;
+          justify-content:space-between;
+        }
+        .last{
+          background-color: rgb(240, 253, 255);
+          border-radius: 12px;
+          width: 430px;         
+          padding-left: 10px;
+          margin-top: 15px;
+          height: 130px;
+        }
+    </style>
+</body>
+</html>
